@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_postorder - tranverse in the binary tree using the postorder algo
+ * binary_tree_postorder - tranverse in the binary tree using postorder algo
  * @tree: The tree
  * @func: function to print the content of the node
  * Return: Nothing
