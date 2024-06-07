@@ -6,7 +6,7 @@
 void new_right_child(binary_tree_t **parent, binary_tree_t **new_node);
 
 /**
- * binary_tree_insert_right - inserts a left node to a node in the tree
+ * binary_tree_insert_right - inserts a right node to a node in the tree
  * @parent: The parent node of the node
  * @value: the value of the inserted node
  * Return: The address of the new node in success, NULL in failure
@@ -26,7 +26,7 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 
 	new_node->n = value;
 	new_node->right = NULL;
-	new_node->right = NULL;
+	new_node->left = NULL;
 	new_node->parent = parent;
 
 	if (parent->right == NULL)
