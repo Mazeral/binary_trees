@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-void print_node_val(int);
 /**
  * binary_tree_preorder - tranverse in the binary tree using the pre_order algo
  * @tree: The tree
